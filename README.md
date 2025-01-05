@@ -1,31 +1,22 @@
-/Threat-Hunt-Scenarios
-   /Phishing-Attack-Compromise
-       README.md
-       /Queries
-           phishing_detection.kql
-           suspicious_logins.kql
-       /Scripts
-           quarantine_email.ps1
-           remove_inbox_rule.ps1
-       /Reports
-           phishing_incident_report.pdf
-   /Ransomware-Infection
-       README.md
-       /Queries
-           ransomware_file_changes.kql
-           malicious_processes.kql
-       /Scripts
-           isolate_device.ps1
-           terminate_process.ps1
-       /Reports
-           ransomware_incident_report.pdf
-   /Unauthorized-Cloud-Storage-Access
-       README.md
-       /Queries
-           suspicious_uploads.kql
-       /Scripts
-           block_cloud_service.ps1
-       /Reports
-           cloud_access_report.pdf
-   ...
-README.md
+# Threat Hunt Scenarios
+
+This repository contains step-by-step guides for detecting, investigating, and remediating various cybersecurity incidents. Each scenario includes practical queries, scripts, and sample reports to aid threat hunting in real-world environments.
+
+## Scenarios
+
+1. [Phishing Attack Compromise](./Phishing-Attack-Compromise/README.md)
+2. [Ransomware Infection](./Ransomware-Infection/README.md)
+3. [Unauthorized Cloud Storage Access](./Unauthorized-Cloud-Storage-Access/README.md)
+4. [Malicious Insider Activity](./Malicious-Insider-Activity/README.md)
+5. [Compromised VPN Usage](./Compromised-VPN-Usage/README.md)
+6. [Cryptojacking Incident](./Cryptojacking-Incident/README.md)
+7. [IoT Device Exploitation](./IoT-Device-Exploitation/README.md)
+8. [Unapproved Software Installation](./Unapproved-Software-Installation/README.md)
+
+---
+
+## How to Use
+
+1. Navigate to the scenario folder.
+2. Follow the detailed steps in the README for that scenario.
+3. Use provided queries, scripts, and reports for hands-on practice.
